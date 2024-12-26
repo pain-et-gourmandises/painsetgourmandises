@@ -244,11 +244,23 @@ left:42%;
   cursor:pointer;
 }
 
+#map { 
+  height:350px;
+  width:60%;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+
 /* footer */
 .footer {
   text-align: center;
   margin-top:70px;
   margin-bottom:10px;
+}
+
+.footer img {
+  width:50%;
 }
 
 /* checkbox produits */
