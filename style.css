@@ -210,6 +210,7 @@ left:42%;
   margin-top:60px;
   margin-bottom:10px;
 }
+
 .texte h3 {
   text-align: center;
   font-size:2rem;
@@ -251,6 +252,12 @@ left:42%;
   margin-right:auto;
 }
 
+.imagecentre {
+  display:flex;
+  justify-content:center;
+  margin-left:auto;
+  margin-right:auto;
+}
 
 /* footer */
 .footer {
@@ -262,6 +269,14 @@ left:42%;
 .footer img {
   width:50%;
 }
+
+
+/* Dropdown */
+
+
+
+
+
 
 /* checkbox produits */
 .description-cb {
@@ -306,7 +321,15 @@ position:relative;
 .cookiessarrasinnoisette-label,
 .cookiessarrasinnoisette-cb,
 .canneles-label,
-.canneles-cb{
+.canneles-cb,
+.tartenoix-label,
+.tartenoix-cb,
+.tropezienne-label,
+.tropezienne-cb,
+.palmiers-label,
+.palmiers-cb,
+.rocherscoco-label,
+.rocherscoco-cb{
   appearance:none;
 }
 
@@ -405,5 +428,33 @@ position:relative;
   display:none;
 }
 .canneles-cb:checked ~ .descriptioncanneles{
+  display:block;
+}
+
+.descriptiontartenoix{
+  display:none;
+}
+.tartenoix-cb:checked ~ .descriptiontartenoix{
+  display:block;
+}
+
+.descriptiontropezienne{
+  display:none;
+}
+.tropezienne-cb:checked ~ .descriptiontropezienne{
+  display:block;
+}
+
+.descriptionpalmiers{
+  display:none;
+}
+.palmiers-cb:checked ~ .descriptionpalmiers{
+  display:block;
+}
+
+.descriptionrocherscoco{
+  display:none;
+}
+.rocherscoco-cb:checked ~ .descriptionrocherscoco{
   display:block;
 }
