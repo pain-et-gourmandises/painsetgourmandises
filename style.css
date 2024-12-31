@@ -160,6 +160,16 @@ svg{
    width: 100%;
 }
 
+/* .titre {
+background-attachment: fixed; 
+background-size: cover; 
+background-position: center; 
+background-repeat: no-repeat; 
+background-image: url("media/IMG_2467.JPG");
+width:100%;
+height:350px;
+} */
+
 .titre h1{
   color:white;
   font-size: 5vw;
@@ -282,6 +292,7 @@ left:42%;
 .description-cb {
 position:relative;
 }
+
 .description-cb p{
   font-size:1.1rem;
 }
@@ -289,7 +300,6 @@ position:relative;
 .img-cb img{
   width:35%;
   position:relative;
-  left:5%;
   margin-top:20px;
   margin-bottom: 40px;
 }
@@ -338,6 +348,7 @@ position:relative;
 }
 .pomme-cb:checked ~ .descriptionpomme{
   display:block;
+  transition-duration:5s;
 }
 
 .descriptionamandinepoire{
